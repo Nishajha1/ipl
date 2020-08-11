@@ -1,4 +1,5 @@
 function matchesPlayedPerYear(matches) {
+  console.log("start");
   const result = {};
   for (let match of matches) {
     const season = match.season;
